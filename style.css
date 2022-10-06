@@ -4,4 +4,11 @@
 body{
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
+} 
+.top-head{
+    font-size: 30px;
+    text-align: center;
+   background-color: rgba(68, 83, 106, 0.8);  
+   position: fixed;
+   width: 100%;
 }
