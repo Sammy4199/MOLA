@@ -4,5 +4,13 @@
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    font-family: 'ROBOTO', Courier, monospace;
+}
+.decall{
+    margin-top: 0px;
+    background: rgb(58, 54, 54);
+    display: fixed;
+    color: aliceblue;
+    text-align: center;
 }
