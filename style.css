@@ -18,5 +18,24 @@ header{
     display: fixed;
     color: #0B4817;
     text-align: center; 
-    cursor: pointer;
+    cursor: default;
+}
+img{
+    width: 2%;
+    height: 30px;
+    margin-left: 1%;
+
+}
+#nav-header{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#menu-header{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#menu-header :hover{
+    color: #9d34c6;
 }
