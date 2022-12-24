@@ -15,12 +15,20 @@ header{
     position: fixed;
     font-family: 'Times New Roman', Times, serif;
     background: #ECF2F0;
-    display: fixed;
     color: #0B4817;
-    text-align: center; 
     cursor: default;
 }
-img{
+main{
+    position: absolute;
+    margin-top: 30px; 
+    width: 100%;
+}
+#h2{
+    text-align: center;
+    color: #0B4817;  
+    font-style: italic; 
+}
+#logo{
     width: 2%;
     height: 30px;
     margin-left: 1%;
@@ -42,4 +50,31 @@ img{
 #a-signin{
     text-decoration: none;
     color: #0B4817;
+}
+.top-img{
+    overflow: hidden;
+    height: 130px;
+    width: 100%;
+    animation-name: slider_img;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+#top-img{
+    width: 100%;
+    max-height: 100%;
+    
+}
+@keyframes slider_img{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;;}
+    90% {left: 0px;}
+    100% {left: 0px;}
 }
