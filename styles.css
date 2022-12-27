@@ -5,26 +5,21 @@
 
 *{
     padding: 0;
-    margin: 0;  
+   margin: 0; 
 }
 body{
+    margin-top: 0px;
     font-family: 'ROBOTO', Courier, monospace;
 }
 header{
-    width: 100%;
     position: fixed;
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
     background: #ECF2F0;
     color: #0B4817;
     cursor: default;
 }
-main{
-    position: absolute;
-    margin-top: 30px; 
-    width: 100%;
-}
 #h2{
-    position: relative;
     text-align: center;
     color: #0B4817;  
     font-style: italic; 
@@ -46,7 +41,7 @@ main{
     margin-right: 5px;
 }
 #menu-header :hover{
-    color: #9d34c6;
+    color: #34b0c6;
 }
 #a-signin{
     text-decoration: none;
