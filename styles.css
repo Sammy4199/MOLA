@@ -15,8 +15,8 @@ header{
     position: fixed;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    background: #ECF2F0;
-    color: #0B4817;
+    background: #162822;
+    color: #bde7c6;
     cursor: default;
 }
 #h2{
@@ -28,7 +28,7 @@ header{
     width: 2%;
     height: 30px;
     margin-left: 1%;
-
+    color: aliceblue;
 }
 #nav-header{
     display: flex;
@@ -39,13 +39,14 @@ header{
     list-style: none;
     margin-top: 5px;
     margin-right: 5px;
+    
 }
 #menu-header :hover{
-    color: #34b0c6;
+    color: #e2e7e8;
 }
-#a-signin{
+#signin{
     text-decoration: none;
-    color: #0B4817;
+    color: #bde7c6;
 }
 .section1{
     width: 100%;
