@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 :root {
-    --shadow: 4px 20px 30px rgba(68, 83, 106, 0.8);
+    --shadow: 0px 3px 10px 2px rgba(68, 83, 106, 0.8);
 }
 
 *{
@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    
 }
 #menu-header{
     list-style: none;
@@ -55,6 +56,7 @@ header{
     overflow: scroll;
     width: 100%;
     height: 100%;
+    box-shadow: var(--shadow);
 }
 #top-img{
     width: 100%;
