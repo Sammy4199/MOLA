@@ -16,20 +16,20 @@ body{
     font-family: 'ROBOTO', Courier, monospace;
 }
 header{
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
     background: #162822;
     color: #ffffff;
     cursor: default;
-    height: 30px;
+    height: 30px !important;
 }
 #h2{
     text-align: center;
     font-style: italic; 
 }
 #logo{
-    width: 2%;
+    width: 30px;
     height: 30px;
     margin-left: 1%;
     filter: grayscale(100%);
@@ -86,5 +86,14 @@ background-color: #b4b4b4;
 #select-hostels{
     width: 130px;
     height: 25px;
-
+}
+.hostel-div{
+    display: flex;
+    flex-direction: column;
+}
+.hostels{
+    display: flex;
+}
+.hostel-container{
+    width: 40%;
 }
