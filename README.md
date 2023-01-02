@@ -1,4 +1,4 @@
 ## MOLA
-Building a hostel site
+Building a beautiful hostel site
 
 ## FEATURES
