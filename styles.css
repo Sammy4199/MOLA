@@ -90,10 +90,29 @@ background-color: #b4b4b4;
 .hostel-div{
     display: flex;
     flex-direction: column;
+    grid-area: a;
 }
 .hostels{
     display: flex;
 }
 .hostel-container{
     width: 40%;
+}
+.hostel-sidebar{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    ;
+}
+.sidebar{
+    grid-area: b;
+}
+
+
+
+/* Responsive */
+@media (max-width:800px) {
+   .sidebar{
+    display: none;
+   } 
 }
