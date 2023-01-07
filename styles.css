@@ -94,9 +94,14 @@ background-color: #b4b4b4;
 }
 .hostels{
     display: flex;
+
 }
 .hostel-container{
     width: 40%;
+    margin: 10px;
+}
+.hostel-container div{
+    margin: 10px auto ;
 }
 .hostel-sidebar{
     display: grid;
