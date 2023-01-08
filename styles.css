@@ -86,6 +86,8 @@ background-color: #b4b4b4;
 #select-hostels{
     width: 130px;
     height: 25px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .hostel-div{
     display: flex;
