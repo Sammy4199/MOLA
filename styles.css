@@ -69,6 +69,7 @@ header{
 #top-img{
     width: 100%;
     max-height: 100%;
+    object-fit: cover;
 }
 .container{
     display: flex;
@@ -81,16 +82,21 @@ header{
     border-radius: 1px solid black;
 }
 input[type="search"]:hover{
-background-color: #b4b4b4;
+background-color: lightskyblue;
 }
 #select-hostels{
     width: 130px;
     height: 25px;
     font-size: 11px;
     font-family: 'Courier New', Courier, monospace;
+    outline: none;
+}
+select:focus {
+    background-color: ivory;
 }
 .hostel-div{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     grid-area: a;
 }
@@ -114,6 +120,10 @@ background-color: #b4b4b4;
 .sidebar{
     grid-area: b;
 }
+input[type="search"]:focus {
+    background-color: lightblue;
+}
+
 
 
 
