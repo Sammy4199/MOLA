@@ -123,6 +123,9 @@ select:focus {
 input[type="search"]:focus {
     background-color: lightblue;
 }
+.divider{
+    border-bottom: 1px solid black;
+}
 
 
 
